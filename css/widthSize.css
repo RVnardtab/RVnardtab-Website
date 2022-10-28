@@ -12,8 +12,9 @@
     }
 
     iframe {
-        max-width: 220px;
-        max-height: 115px;
+        max-width: 100%;
+        width: 220px;
+        height: 115px;
     }
 }
 
@@ -35,8 +36,9 @@
     }
 
     iframe {
-        max-width: 200px;
-        max-height: 95px;
+        max-width: 100%;
+        width: 200px;
+        height: 95px;
     }
 }
 
@@ -87,5 +89,20 @@
         max-width: 100%;
         width: 135.5px;
         height: 79.25px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    iframe {
+        max-width: 100%;
+        width: 105.5px;
+        height: 59.25px;
+    }
+
+    .socials button {
+        color: white;
+        font-size: 9px;
+        border-radius: 8px;
+        padding: 5px 5px;
     }
 }

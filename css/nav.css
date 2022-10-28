@@ -18,9 +18,13 @@ nav a {
     font-size: 18px;
     line-height: 10px;
 }
-nav a:hover {
+nav a:hover, nav a.currentPage:hover {
     transition: 0.4s;
     color: #004eff;
+}
+
+nav a.currentPage {
+    color: cyan;
 }
 
 .navLogo {

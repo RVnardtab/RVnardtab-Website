@@ -18,9 +18,13 @@ footer a {
     font-size: 16px;
     line-height: 10px;
 }
-footer a:hover {
+footer a:hover, footer a.currentPage:hover {
     transition: 0.2s;
     color: #004eff;
+}
+
+footer a.currentPage {
+    color: cyan;
 }
 
 footer p {

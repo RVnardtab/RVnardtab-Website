@@ -29,8 +29,8 @@ img {
 
 iframe {
     width: 100%;
-    max-width: 240px;
-    max-height: 135px;
+    max-width: 280px;
+    max-height: 175px;
 }
 
 /*Images*/
@@ -82,14 +82,14 @@ iframe {
     color: white;
     font-size: 15px;
     background-color: #c30606;
-    border-color: #c30606;
+    border-color: #ff0000;
     border-radius: 10px;
     padding: 10px 10px;
 }
 .socials button:hover {
     transition: 0.6s;
-    background-color: #9d0505;
-    border-color: #9d0505;
+    background-color: #c3060689;
+    border-color: #c3060689;
 }
 
 .socHr {
