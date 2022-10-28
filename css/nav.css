@@ -1,0 +1,59 @@
+/*Navigation bar*/
+nav {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow: hidden;
+    background-color: #00005f;
+    padding: 5px 5px; 
+    padding-left: 100px;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    display: inline-block;
+    text-align: center;
+    padding: 12px;
+    margin-top: 3px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 10px;
+}
+nav a:hover {
+    transition: 0.4s;
+    color: #004eff;
+}
+
+.navLogo {
+    max-width: 40px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navText {
+    display: none;
+    max-width: 50%;
+    min-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Resizing*/
+@media only screen and (max-width: 850px) {
+    .navLogo {
+        display: none;
+    }
+
+    .navText {
+        display: block;
+    }
+
+    nav {
+        padding: 0px;
+    }
+
+    nav a {
+        display: block;
+    }
+}

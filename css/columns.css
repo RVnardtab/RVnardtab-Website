@@ -1,0 +1,49 @@
+/*Columns*/
+.column1 {
+    position: center;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.column2 {
+    float: left;
+    width: 50%;
+    padding-bottom: 20px;
+}
+.column3 {
+    float: left;
+    width: 33.33%;
+    padding-bottom: 20px;
+}
+
+.column4 {
+    float: left;
+    width: 25%;
+    padding-bottom: 20px;
+}
+
+.column5 {
+  float: left;
+  width: 20%;
+  padding-bottom: 20px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media only screen and (max-width: 850px) {
+    .column2 {
+      width: 100%;
+    }
+    .column3 {
+      width: 100%;
+    }
+    .column4 {
+      width: 100%;
+    }
+    .column5 {
+      width: 100%;
+    }
+  }

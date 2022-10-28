@@ -1,0 +1,56 @@
+/*Footer*/
+footer {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow: hidden;
+    background-color: #00005f;
+    padding: 80px 80px; 
+    position: center;
+    top: 0;
+    border-top: 2px solid white;
+}
+
+footer a {
+    color: white;
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 10px;
+}
+footer a:hover {
+    transition: 0.2s;
+    color: #004eff;
+}
+
+footer p {
+    font-family: Apple Chancery, cursive;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer h2 {
+    text-decoration-line: underline;
+}
+
+.footerLogo {
+    max-width: 130px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Resizing*/
+@media only screen and (max-width: 1200px) {
+    footer a {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    footer a {
+        font-size: 11px;
+    }
+}
