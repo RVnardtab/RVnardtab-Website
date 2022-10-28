@@ -37,7 +37,7 @@ nav a.currentPage {
 
 .navText {
     display: none;
-    max-width: 50%;
+    max-width: 30%;
     min-width: 250px;
     margin-left: auto;
     margin-right: auto;
