@@ -97,15 +97,3 @@ iframe {
     max-width: 1500px;
     min-width: 200px;
 }
-
-/*Margins*/
-.ytMarg {
-    margin-left: 125px; 
-    margin-right: 125px;
-}
-
-.socMarg {
-    margin-left: 220px; 
-    margin-right: 220px;
-    width: 40%;
-}
