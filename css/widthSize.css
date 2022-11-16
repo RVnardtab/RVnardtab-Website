@@ -1,10 +1,3 @@
-/* On smaller screens, decrease size */
-@media only screen and (min-width: 1320px) {
-    .socHr {
-        width: 80%;
-    }
-}
-
 @media only screen and (min-width: 1320px) {
     .socHr {
         width: 80%;
