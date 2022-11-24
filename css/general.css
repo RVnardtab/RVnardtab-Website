@@ -75,6 +75,10 @@ iframe {
     text-align: center;
 }
 
+.column1 .socials {
+    max-width: 23%;
+}
+
 .socials img {
     max-width: 60%;
 }
